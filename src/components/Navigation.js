@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Container, Nav, Navbar, Button, Offcanvas, Stack, NavbarBrand } from "react-bootstrap";
+import { Container, Nav, Navbar, Button, Offcanvas, Stack, Image } from "react-bootstrap";
 import { Outlet } from "react-router-dom";
 import styles from '../public/stylesheets/Navigation.module.css';
 
@@ -14,7 +14,7 @@ function Navigation() {
         <>
             <Navbar bg="dark" variant="dark">
                 <Container fluid>
-                    <h1 className={styles.brand}>Josiah Parkhill</h1>
+                    <Image src={require("../images/jLogo.png")} className={styles.logo}/>
                     <Button variant="light" onClick={handleShow}>
                         <i class="bi bi-grid-fill"></i>
                     </Button>
