@@ -1,0 +1,22 @@
+.brand {
+    font-weight: 700;
+    color: white;
+    font-size: 40px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.link {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 10px;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: #495057;
+}
