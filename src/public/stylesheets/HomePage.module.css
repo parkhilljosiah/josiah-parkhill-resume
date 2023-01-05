@@ -25,6 +25,30 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-weight: 700;
-    font-size: 55px;
+    font-size: 80px;
     color: #2d3142;
+}
+
+.heading {
+    text-align: center;
+    padding: 50px;
+    font-weight: 700;
+    color: #4f5d75;
+}
+
+.container {
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+}
+
+.contact {
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    color: #4f5d75;
+}
+
+.contact:hover {
+    color: #f15025;
 }
