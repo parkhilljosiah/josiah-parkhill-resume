@@ -18,5 +18,12 @@
 
 .link:hover {
     text-decoration: none;
-    color: #f15025;
+    background-color: #f15025;
+    background-image: linear-gradient(30deg, #f15025, #ffba08);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
 }
