@@ -1,4 +1,3 @@
-import { Button } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 import styles from '../public/stylesheets/NotFound.module.css';
 
@@ -10,7 +9,7 @@ function NotFound() {
         <>
             <h1 className={styles.fourohfour}>404</h1>
             <div className={styles.gifContainer}>
-                <img className={styles.gif} src='https://media.tenor.com/tIs0vjSqRgIAAAAM/cat-kinkytwt.gif'></img>
+                <img alt='' className={styles.gif} src='https://media.tenor.com/tIs0vjSqRgIAAAAM/cat-kinkytwt.gif'></img>
             </div>
             <div className={styles.textContainer}>
                 <h3 className={styles.text}>oh my... you have found the golden '404'</h3>
