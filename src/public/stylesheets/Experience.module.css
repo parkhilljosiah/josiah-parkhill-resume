@@ -1,0 +1,58 @@
+
+.heading {
+    padding-top: 2rem;
+    background-color: #f15025;
+    background-image: linear-gradient(30deg, #f15025, #ffba08);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    text-align: center;
+    font-weight: 800;
+    font-size: 300%;
+}
+
+.experienceContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.jobContainer {
+    margin: 70px;
+}
+
+.divider {
+   border: 0.5px solid gray;
+   width: 85%;
+   align-self: center;
+}
+
+.jobHeading {
+    text-align: center;
+    margin: 0px;
+}
+
+.jobTitle {
+    font-weight: 700;
+}
+
+.jobName {
+    padding-bottom: 15px;
+    font-style: italic;
+}
+
+.location {
+    margin: 0px;
+}
+
+.duration {
+    opacity: 0.6;
+    padding-bottom: 10px;
+}
+
+.task {
+    font-size: 120%;
+}
