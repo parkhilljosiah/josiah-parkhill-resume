@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Container, Nav, Navbar, Button, Offcanvas, Stack, Image } from "react-bootstrap";
 import { Outlet } from "react-router-dom";
+import Footer from "./Footer";
 import styles from '../public/stylesheets/Navigation.module.css';
 
 
@@ -40,6 +41,7 @@ function Navigation() {
             <Stack>
                 <Outlet />
             </Stack>
+            <Footer />
         </>
     )
 }
