@@ -52,7 +52,7 @@ function Experience() {
 
   return (
     <>
-      <h1 className={styles.heading}>experience.</h1>
+      <p className={styles.heading}>experience.</p>
       <div className={styles.experienceContainer}>
         {displayExperience(paramount)}
       <div className={styles.divider}></div>
