@@ -43,10 +43,11 @@
 }
 
 .contact {
-    font-size: 30px;
+    font-size: 35px;
     text-decoration: none;
     text-align: center;
     color: #4f5d75;
+    padding-top: 60px;
 }
 
 .contact:hover {

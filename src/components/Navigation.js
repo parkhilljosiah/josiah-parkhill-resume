@@ -31,7 +31,6 @@ function Navigation() {
                                 <a className={styles.link} href='/experience'><i class="bi bi-briefcase" style={{ 'padding-right': '10px' }}></i> Experience</a>
                                 <a className={styles.link} href='/skills'><i class="bi bi-code-slash" style={{ 'padding-right': '10px' }}></i> Skills</a>
                                 <a className={styles.link} href='/interests'><i class="bi bi-camera-reels" style={{ 'padding-right': '10px' }}></i> Interests</a>
-                                <a className={styles.link} href='/funFacts'><i class="bi bi-chat-square-quote" style={{ 'padding-right': '10px' }}></i> Fun Facts</a>
                             </Nav>
                         </Offcanvas.Body>
                         <a className={styles.link} href='/'><i class="bi bi-house-door" style={{ 'padding-left': '10px' }}></i></a>

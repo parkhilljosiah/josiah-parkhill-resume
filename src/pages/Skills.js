@@ -50,7 +50,7 @@ function Skills() {
   });
 
   return (
-    <>
+    <div className="container">
     <p className="heading">skills.</p>
       <Accordion>
         <Accordion.Item eventKey="0">
@@ -72,7 +72,7 @@ function Skills() {
           </AccordionBody>
         </Accordion.Item>
       </Accordion>
-    </>
+    </div>
   );
 }
 
